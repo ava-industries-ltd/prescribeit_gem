@@ -4,10 +4,9 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **id** | **String** |  | [optional] |
 | **token** | **String** |  | [optional] |
 | **communication** | [**Array&lt;SharedCommunicationLanguageHolder&gt;**](SharedCommunicationLanguageHolder.md) |  |  |
-| **license_number** | [**PractitionerLicense**](PractitionerLicense.md) |  | [optional] |
+| **license_number** | [**PractitionerLicense**](PractitionerLicense.md) |  |  |
 | **contact_list** | [**Array&lt;ContactInfo&gt;**](ContactInfo.md) |  | [optional] |
 | **role** | [**SharedPractitionerRoleHolder**](SharedPractitionerRoleHolder.md) |  | [optional] |
 | **specialty** | [**Array&lt;PractitionerSpecialtyHolder&gt;**](PractitionerSpecialtyHolder.md) |  | [optional] |
@@ -25,7 +24,6 @@
 require 'openapi_client'
 
 instance = OpenapiClient::Practitioner.new(
-  id: null,
   token: null,
   communication: null,
   license_number: null,

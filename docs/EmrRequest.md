@@ -11,6 +11,7 @@
 | **new_requests** | [**Array&lt;MedicationOrder&gt;**](MedicationOrder.md) |  | [optional] |
 | **renewal_requests** | [**Array&lt;MedicationOrder&gt;**](MedicationOrder.md) |  | [optional] |
 | **renewal_responses** | [**Array&lt;RenewResponseMedicationOrder&gt;**](RenewResponseMedicationOrder.md) |  | [optional] |
+| **is_held** | **Boolean** |  | [optional] |
 | **group_id** | [**Identifier**](Identifier.md) |  | [optional] |
 
 ## Example
@@ -26,6 +27,7 @@ instance = OpenapiClient::EmrRequest.new(
   new_requests: null,
   renewal_requests: null,
   renewal_responses: null,
+  is_held: null,
   group_id: null
 )
 ```

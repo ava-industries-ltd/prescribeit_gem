@@ -4,6 +4,7 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
+| **id** | **String** |  | [optional] |
 | **entity_type** | **String** |  |  |
 
 ## Example
@@ -12,6 +13,7 @@
 require 'openapi_client'
 
 instance = OpenapiClient::CommunicationEntity.new(
+  id: null,
   entity_type: null
 )
 ```

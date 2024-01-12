@@ -14,6 +14,8 @@
 | **number_of_repeats_allowed** | **Integer** |  | [optional] |
 | **quantity** | [**Quantity**](Quantity.md) |  | [optional] |
 | **expected_supply_duration_days** | **Float** |  | [optional] |
+| **end_of_validity** | [**ValidityType**](ValidityType.md) |  | [optional] |
+| **is_for_life** | **Boolean** |  | [optional] |
 
 ## Example
 
@@ -30,7 +32,9 @@ instance = OpenapiClient::MedicationOrderDispenseRequest.new(
   validity_period: null,
   number_of_repeats_allowed: null,
   quantity: null,
-  expected_supply_duration_days: null
+  expected_supply_duration_days: null,
+  end_of_validity: null,
+  is_for_life: null
 )
 ```
 
