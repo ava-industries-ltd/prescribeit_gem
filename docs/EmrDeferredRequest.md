@@ -8,6 +8,7 @@
 | **patient_info** | [**PatientInfo**](PatientInfo.md) |  |  |
 | **practitioner** | [**Practitioner**](Practitioner.md) |  |  |
 | **deferred_requests** | [**Array&lt;MedicationOrder&gt;**](MedicationOrder.md) |  |  |
+| **discontinue_requests** | [**Array&lt;DiscontinueMedOrder&gt;**](DiscontinueMedOrder.md) |  | [optional] |
 | **group_id** | [**Identifier**](Identifier.md) |  | [optional] |
 
 ## Example
@@ -20,6 +21,7 @@ instance = OpenapiClient::EmrDeferredRequest.new(
   patient_info: null,
   practitioner: null,
   deferred_requests: null,
+  discontinue_requests: null,
   group_id: null
 )
 ```

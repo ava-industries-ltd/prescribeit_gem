@@ -6,7 +6,8 @@
 | ---- | ---- | ----------- | ----- |
 | **low** | **Float** |  |  |
 | **high** | **Float** |  |  |
-| **unit** | [**PrescriptionDoseQuantityUnitHolder**](PrescriptionDoseQuantityUnitHolder.md) |  |  |
+| **unit** | [**PrescriptionDoseQuantityUnitHolder**](PrescriptionDoseQuantityUnitHolder.md) |  | [optional] |
+| **unit_text** | **String** |  | [optional] |
 
 ## Example
 
@@ -16,7 +17,8 @@ require 'openapi_client'
 instance = OpenapiClient::Range.new(
   low: null,
   high: null,
-  unit: null
+  unit: null,
+  unit_text: null
 )
 ```
 

@@ -4,10 +4,9 @@
 
 | Name | Type | Description | Notes |
 | ---- | ---- | ----------- | ----- |
-| **id** | **String** |  |  |
 | **name** | **String** |  |  |
 | **organization_type** | [**SharedOrganizationTypeHolder**](SharedOrganizationTypeHolder.md) |  | [optional] |
-| **contact_list** | [**Array&lt;ContactInfo&gt;**](ContactInfo.md) |  | [optional] |
+| **contact_list** | [**Array&lt;ContactInfo&gt;**](ContactInfo.md) |  |  |
 | **address** | [**Address**](Address.md) |  |  |
 | **services_offered** | [**Array&lt;CommunicationService&gt;**](CommunicationService.md) |  | [optional] |
 | **parent_organization** | [**OrganizationParentReference**](OrganizationParentReference.md) |  | [optional] |
@@ -19,7 +18,6 @@
 require 'openapi_client'
 
 instance = OpenapiClient::Organization.new(
-  id: null,
   name: null,
   organization_type: null,
   contact_list: null,
