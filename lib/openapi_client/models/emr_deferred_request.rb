@@ -73,8 +73,8 @@ module OpenapiClient
       end
 
       # check to see if the attribute exists and convert string to symbol for hash key
-      attributes = acceptable_attributes.each_with_object({}) { |(k, v), h|
-        if (!self.class.attribute_map.key?(k.to_sym))
+      attributes = attributes.each_with_object({}) { |(k, v), h|
+        if (!self.class.acceptable_attributes.key?(k.to_sym))
           fail ArgumentError, "`#{k}` is not a valid attribute in `OpenapiClient::EmrDeferredRequest`. Please check the name to make sure it's valid. List of attributes: " + self.class.attribute_map.keys.inspect
         end
         h[k.to_sym] = v
