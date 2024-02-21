@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionAdministrationSiteEnum
+# PrescribeItClient::PrescriptionAdministrationSiteEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionAdministrationSiteEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

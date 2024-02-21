@@ -1,15 +1,6 @@
-# OpenapiClient::SharedPractitionerRoleEnum
+# PrescribeItClient::SharedPractitionerRoleEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedPractitionerRoleEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

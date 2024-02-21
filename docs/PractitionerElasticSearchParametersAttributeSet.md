@@ -1,15 +1,6 @@
-# OpenapiClient::PractitionerElasticSearchParametersAttributeSet
+# PrescribeItClient::PractitionerElasticSearchParametersAttributeSet
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PractitionerElasticSearchParametersAttributeSet.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

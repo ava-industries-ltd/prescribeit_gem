@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionRenewalRejectReasonEnum
+# PrescribeItClient::PrescriptionRenewalRejectReasonEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionRenewalRejectReasonEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

@@ -1,15 +1,6 @@
-# OpenapiClient::SharedPractitionerIdentifierTypeEnum
+# PrescribeItClient::SharedPractitionerIdentifierTypeEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedPractitionerIdentifierTypeEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

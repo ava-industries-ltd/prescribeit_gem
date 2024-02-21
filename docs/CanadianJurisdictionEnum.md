@@ -1,15 +1,6 @@
-# OpenapiClient::CanadianJurisdictionEnum
+# PrescribeItClient::CanadianJurisdictionEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::CanadianJurisdictionEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

@@ -1,15 +1,6 @@
-# OpenapiClient::NotificationMessageType
+# PrescribeItClient::NotificationMessageType
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::NotificationMessageType.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

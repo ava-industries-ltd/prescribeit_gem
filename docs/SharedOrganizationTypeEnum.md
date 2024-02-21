@@ -1,15 +1,6 @@
-# OpenapiClient::SharedOrganizationTypeEnum
+# PrescribeItClient::SharedOrganizationTypeEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedOrganizationTypeEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

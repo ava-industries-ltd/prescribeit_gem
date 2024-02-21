@@ -1,22 +1,10 @@
-# OpenapiClient::DurationRange
+# PrescribeItClient::DurationRange
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **low** | **Float** |  | [optional] |
-| **high** | **Float** |  | [optional] |
-| **unit** | [**TimeUnit**](TimeUnit.md) |  |  |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::DurationRange.new(
-  low: null,
-  high: null,
-  unit: null
-)
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**low** | [**BigDecimal**](BigDecimal.md) |  | [optional] 
+**high** | [**BigDecimal**](BigDecimal.md) |  | [optional] 
+**unit** | [**TimeUnit**](TimeUnit.md) |  | 
+**type** | **String** |  | 
 

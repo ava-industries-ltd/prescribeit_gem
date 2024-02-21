@@ -1,15 +1,6 @@
-# OpenapiClient::AttachmentTypeEnum
+# PrescribeItClient::AttachmentTypeEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::AttachmentTypeEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

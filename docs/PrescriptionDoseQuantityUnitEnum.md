@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionDoseQuantityUnitEnum
+# PrescribeItClient::PrescriptionDoseQuantityUnitEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionDoseQuantityUnitEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

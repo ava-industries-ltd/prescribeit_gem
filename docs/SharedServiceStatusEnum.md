@@ -1,15 +1,6 @@
-# OpenapiClient::SharedServiceStatusEnum
+# PrescribeItClient::SharedServiceStatusEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedServiceStatusEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

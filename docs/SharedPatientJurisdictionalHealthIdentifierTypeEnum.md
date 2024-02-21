@@ -1,15 +1,6 @@
-# OpenapiClient::SharedPatientJurisdictionalHealthIdentifierTypeEnum
+# PrescribeItClient::SharedPatientJurisdictionalHealthIdentifierTypeEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedPatientJurisdictionalHealthIdentifierTypeEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

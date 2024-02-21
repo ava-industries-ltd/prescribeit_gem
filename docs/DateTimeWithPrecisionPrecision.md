@@ -1,15 +1,6 @@
-# OpenapiClient::DateTimeWithPrecisionPrecision
+# PrescribeItClient::DateTimeWithPrecisionPrecision
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::DateTimeWithPrecisionPrecision.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

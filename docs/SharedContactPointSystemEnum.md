@@ -1,15 +1,6 @@
-# OpenapiClient::SharedContactPointSystemEnum
+# PrescribeItClient::SharedContactPointSystemEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedContactPointSystemEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

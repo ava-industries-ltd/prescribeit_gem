@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionDosageInstructionLineRelationshipEnum
+# PrescribeItClient::PrescriptionDosageInstructionLineRelationshipEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionDosageInstructionLineRelationshipEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

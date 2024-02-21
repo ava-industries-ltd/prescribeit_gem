@@ -1,15 +1,6 @@
-# OpenapiClient::SharedCommunicationLanguageEnum
+# PrescribeItClient::SharedCommunicationLanguageEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::SharedCommunicationLanguageEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

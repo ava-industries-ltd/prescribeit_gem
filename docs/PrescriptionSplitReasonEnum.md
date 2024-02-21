@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionSplitReasonEnum
+# PrescribeItClient::PrescriptionSplitReasonEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionSplitReasonEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

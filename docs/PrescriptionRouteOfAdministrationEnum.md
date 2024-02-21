@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionRouteOfAdministrationEnum
+# PrescribeItClient::PrescriptionRouteOfAdministrationEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionRouteOfAdministrationEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

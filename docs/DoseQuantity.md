@@ -1,20 +1,9 @@
-# OpenapiClient::DoseQuantity
+# PrescribeItClient::DoseQuantity
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **value** | **Float** |  |  |
-| **unit** | [**PrescriptionDoseQuantityUnitHolder**](PrescriptionDoseQuantityUnitHolder.md) |  |  |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::DoseQuantity.new(
-  value: null,
-  unit: null
-)
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**value** | [**BigDecimal**](BigDecimal.md) |  | 
+**unit** | [**PrescriptionDoseQuantityUnitHolder**](PrescriptionDoseQuantityUnitHolder.md) |  | 
+**type** | **String** |  | 
 

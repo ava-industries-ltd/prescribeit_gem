@@ -1,15 +1,6 @@
-# OpenapiClient::CommunicationPriorityEnum
+# PrescribeItClient::CommunicationPriorityEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::CommunicationPriorityEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 

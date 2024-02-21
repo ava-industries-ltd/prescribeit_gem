@@ -1,30 +1,18 @@
-# OpenapiClient::PmsRenewalRequest
+# PrescribeItClient::PmsRenewalRequest
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-| **source** | [**Organization**](Organization.md) |  |  |
-| **destination** | [**Organization**](Organization.md) |  |  |
-| **patient_info** | [**PatientInfo**](PatientInfo.md) |  |  |
-| **practitioner** | [**Practitioner**](Practitioner.md) |  |  |
-| **notes_to_prescriber** | **Array&lt;String&gt;** |  | [optional] |
-| **renewal_requests** | [**Array&lt;RenewRequestMedicationOrder&gt;**](RenewRequestMedicationOrder.md) |  |  |
-| **group_id** | [**Identifier**](Identifier.md) |  | [optional] |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PmsRenewalRequest.new(
-  source: null,
-  destination: null,
-  patient_info: null,
-  practitioner: null,
-  notes_to_prescriber: null,
-  renewal_requests: null,
-  group_id: null
-)
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**source** | [**Organization**](Organization.md) |  | 
+**destination** | [**Organization**](Organization.md) |  | 
+**patient_info** | [**PatientInfo**](PatientInfo.md) |  | 
+**practitioner** | [**Practitioner**](Practitioner.md) |  | 
+**notes_to_prescriber** | **Array&lt;String&gt;** |  | [optional] 
+**renewal_requests** | [**Array&lt;RenewRequestMedicationOrder&gt;**](RenewRequestMedicationOrder.md) |  | 
+**group_id** | [**Identifier**](Identifier.md) |  | [optional] 
+**bundle_id** | **String** |  | [optional] 
+**bundle_full_url** | **String** |  | [optional] 
+**timestamp** | **DateTime** |  | [optional] 
+**id** | **String** |  | [optional] 
+**type** | **String** |  | 
 

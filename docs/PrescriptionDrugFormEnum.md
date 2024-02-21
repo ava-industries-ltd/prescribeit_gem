@@ -1,15 +1,6 @@
-# OpenapiClient::PrescriptionDrugFormEnum
+# PrescribeItClient::PrescriptionDrugFormEnum
 
 ## Properties
-
-| Name | Type | Description | Notes |
-| ---- | ---- | ----------- | ----- |
-
-## Example
-
-```ruby
-require 'openapi_client'
-
-instance = OpenapiClient::PrescriptionDrugFormEnum.new()
-```
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
 
