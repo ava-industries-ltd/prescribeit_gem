@@ -55,8 +55,8 @@ module PrescribeItClient
 
       attributes = attributes.each_with_object({}) { |(k, v), h|
         symbolized_key = k.to_sym
-        unless acceptable_attributes.include?(symbolized_key)
-          fail ArgumentError, "`#{k}` is not a valid attribute in `PrescribeItClient::Ratio`. Please check the name to make sure it's valid. List of attributes: " + combined_attributes.keys.inspect
+        unless self.class.acceptable_attributes.include?(symbolized_key)
+          fail ArgumentError, "`#{k}` is not a valid attribute in `PrescribeItClient::Ratio`. Please check the name to make sure it's valid. List of attributes: " + self.class.acceptable_attributes.inspect
         end
         h[symbolized_key] = v
       }
