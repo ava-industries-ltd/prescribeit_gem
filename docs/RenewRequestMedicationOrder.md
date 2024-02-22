@@ -1,34 +1,30 @@
 # PrescribeItClient::RenewRequestMedicationOrder
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**changes_to_order** | **String** |  | [optional] 
-**days_since_last_dispense** | **Integer** |  | [optional] 
-**medication_dispense** | [**MedicationDispense**](MedicationDispense.md) |  | [optional] 
-**requested_prescription_reference** | [**Array&lt;PmsRxDispenseMedicationOrder&gt;**](PmsRxDispenseMedicationOrder.md) |  | [optional] 
-**info_prescription_reference** | [**Array&lt;PmsRxDispenseMedicationOrder&gt;**](PmsRxDispenseMedicationOrder.md) |  | [optional] 
-**split_prescription** | [**SplitPrescription**](SplitPrescription.md) |  | [optional] 
-**original_prescriber** | [**Practitioner**](Practitioner.md) |  | 
-**id** | [**Identifier**](Identifier.md) |  | 
-**dosage_instructions** | [**Array&lt;DosageInstruction&gt;**](DosageInstruction.md) |  | [optional] 
-**dispense_request** | [**MedicationOrderDispenseRequest**](MedicationOrderDispenseRequest.md) |  | 
-**medication_info** | [**MedicationInfo**](MedicationInfo.md) |  | 
-**rendered_dosage_instruction** | **String** |  | 
-**dis_ids** | **Array&lt;String&gt;** |  | [optional] 
-**treatment_type** | [**PrescriptionTreatmentCategoryHolder**](PrescriptionTreatmentCategoryHolder.md) |  | [optional] 
-**category** | [**PrescriptionTypeHolder**](PrescriptionTypeHolder.md) |  | [optional] 
-**detected_issues** | [**Array&lt;DetectedIssue&gt;**](DetectedIssue.md) |  | [optional] 
-**pharmacy_instructions** | **String** |  | [optional] 
-**over25dur** | **BOOLEAN** |  | [optional] 
-**monitored_drug** | **BOOLEAN** |  | [optional] 
-**no_renewals** | **BOOLEAN** |  | [optional] 
-**reason_codes** | [**Array&lt;PrescriptionIndicationForUseHolder&gt;**](PrescriptionIndicationForUseHolder.md) |  | [optional] 
-**note** | **String** |  | [optional] 
-**date_written** | [**DateTimeWithPrecision**](DateTimeWithPrecision.md) |  | 
-**is_high_priority** | **BOOLEAN** |  | [optional] 
-**do_not_autofill** | **BOOLEAN** |  | [optional] 
-**task_id** | **String** |  | [optional] 
-**prior_prescription_id** | [**Identifier**](Identifier.md) |  | [optional] 
-**type** | **String** |  | 
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **changes_to_order** | **String** |  | [optional] |
+| **days_since_last_dispense** | **Integer** |  | [optional] |
+| **medication_dispense** | [**MedicationDispense**](MedicationDispense.md) |  | [optional] |
+| **requested_prescription_reference** | [**Array&lt;PmsRxDispenseMedicationOrder&gt;**](PmsRxDispenseMedicationOrder.md) |  | [optional] |
+| **info_prescription_reference** | [**Array&lt;PmsRxDispenseMedicationOrder&gt;**](PmsRxDispenseMedicationOrder.md) |  | [optional] |
+| **split_prescription** | [**SplitPrescription**](SplitPrescription.md) |  | [optional] |
+| **original_prescriber** | [**Practitioner**](Practitioner.md) |  |  |
+
+## Example
+
+```ruby
+require 'prescribe_it_client'
+
+instance = PrescribeItClient::RenewRequestMedicationOrder.new(
+  changes_to_order: null,
+  days_since_last_dispense: null,
+  medication_dispense: null,
+  requested_prescription_reference: null,
+  info_prescription_reference: null,
+  split_prescription: null,
+  original_prescriber: null
+)
+```
 

@@ -1,8 +1,20 @@
 # PrescribeItClient::OrganizationIdSearchParameters
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**registry_identifier** | **String** |  | 
-**include_all_practitioners** | **BOOLEAN** |  | [optional] 
+
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **registry_identifier** | **String** |  |  |
+| **include_all_practitioners** | **Boolean** |  | [optional] |
+
+## Example
+
+```ruby
+require 'prescribe_it_client'
+
+instance = PrescribeItClient::OrganizationIdSearchParameters.new(
+  registry_identifier: null,
+  include_all_practitioners: null
+)
+```
 
