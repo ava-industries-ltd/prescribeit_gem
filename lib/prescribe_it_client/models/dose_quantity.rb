@@ -29,7 +29,7 @@ module PrescribeItClient
 
     # Returns all the JSON keys this model knows about, including the ones defined in its parent(s)
     def self.acceptable_attributes
-      attribute_map.values.concat(superclass.acceptable_attributes)
+      attribute_map.keys.concat(superclass.acceptable_attributes)
     end
 
     # Attribute type mapping.

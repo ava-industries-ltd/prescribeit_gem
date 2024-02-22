@@ -65,7 +65,7 @@ module PrescribeItClient
 
     # Returns all the JSON keys this model knows about
     def self.acceptable_attributes
-      attribute_map.values
+      attribute_map.keys
     end
 
     # Attribute type mapping.
